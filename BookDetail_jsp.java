@@ -12,6 +12,7 @@ public class BookDetail_jsp extends HttpJspBase {
 //   JSP.ccp build 05/21/2001
 //
   //some comment to add
+  //   to remove late on
 
   
 
