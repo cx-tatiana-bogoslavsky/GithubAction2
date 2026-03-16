@@ -29,11 +29,11 @@ jobs:
           additional_params: --debug --scan-types ${{ env.scanTypes }} --report-format sarif --output-path .
     #      additional_params: --scan-types ${{ env.scanTypes }} --file-filter "!src/, !.git/, !*.java, !*.iml, !*.json, !*.jar" --debug
 
-      - name: Upload SARIF file
-        uses: github/codeql-action/upload-sarif@v3
-        with:
-          # Path to SARIF file relative to the root of the repository
-          sarif_file: cx_result.sarif
+    #  - name: Upload SARIF file
+    #   uses: github/codeql-action/upload-sarif@v3
+    #   with:
+    #    # Path to SARIF file relative to the root of the repository
+    #   sarif_file: cx_result.sarif
 
     
          
